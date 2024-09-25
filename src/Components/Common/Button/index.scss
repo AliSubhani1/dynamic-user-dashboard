@@ -1,0 +1,18 @@
+@use "../../../Assets/styles/index" as *;
+
+.custom-button {
+  min-width: 92px;
+  width: auto;
+  padding: $spacing-2 $spacing-5;
+  font-size: $font-xs;
+  background-color: $purple;
+  color: $white;
+  border: 1px solid $purple;
+  opacity: 80%;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  &:hover {
+    border-color: $white;
+  }
+}

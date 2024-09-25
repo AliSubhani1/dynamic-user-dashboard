@@ -1,0 +1,16 @@
+@use "../../../Assets/styles/index" as *;
+
+.card {
+  background-color: $purple;
+  color: white;
+  padding: 20px;
+  min-width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  transition-delay: 0.5s;
+
+  &:hover {
+    transform: translateY(-14px);
+  }
+}
