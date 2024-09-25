@@ -1,0 +1,41 @@
+@use "../../assets/styles/index" as *;
+
+.home-page {
+  background-color: $gray;
+  .home-heading {
+    font-size: $font-lg;
+    text-align: left;
+    margin-top: 0;
+    color: $purple;
+    padding: 20px;
+  }
+  .search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: $spacing-8;
+    .search-field {
+      padding: 12px;
+      border-radius: $spacing-4;
+      min-width: 250px;
+      border-color: gray;
+      border-radius: 2px;
+    }
+  }
+  .filters-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .cards-section {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
