@@ -1,0 +1,8 @@
+@use "./src/Assets/styles/index" as *;
+
+.text-area {
+background-color: green;
+color: red;
+margin-top: $spacing-10;
+font-size: $font-2xl;
+}
